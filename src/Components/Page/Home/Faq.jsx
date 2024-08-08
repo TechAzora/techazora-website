@@ -20,7 +20,7 @@ function Faq() {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    1. What solutions does Wavemantra Platform include?
+                    1. What solutions does TechAzora Platform include?
                   </button>
                 </h2>
                 <div
@@ -30,10 +30,10 @@ function Faq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                   <p>Wavemantra Platform is an information management and team collaboration software. Build your knowledge base and easily share your data with the best online collaboration tools from Wavemantra :</p>
-                   <p>Wavemantra Note organizes documentation and provides an all-in-one digital work hub. Use this project collaboration tool online on the web.</p>
-                   <p>Wavemantra Capture is an app for capturing screenshots & screen recordings. This asynchronous collaboration tool helps you explain things better and with ease. You can use the app for online team collaboration as a software app for Windows or as a Chrome extension.</p>
-                   <p>Wavemantra Clipper extension saves web pages, articles, emails and PDFs. It’s an online tool that can be used for collaboration too. Save only necessary content from the page without irrelevant images or ads. Add it to another team collaboration software — Wavemantra Note and share your findings with coworkers. Use the Wavemantra Clipper collaboration tool online as a Chrome or Firefox extension.</p>
+                   <p>TechAzora Platform is an information management and team collaboration software. Build your knowledge base and easily share your data with the best online collaboration tools from TechAzora :</p>
+                   <p>TechAzora Note organizes documentation and provides an all-in-one digital work hub. Use this project collaboration tool online on the web.</p>
+                   <p>TechAzora Capture is an app for capturing screenshots & screen recordings. This asynchronous collaboration tool helps you explain things better and with ease. You can use the app for online team collaboration as a software app for Windows or as a Chrome extension.</p>
+                   <p>TechAzora Clipper extension saves web pages, articles, emails and PDFs. It’s an online tool that can be used for collaboration too. Save only necessary content from the page without irrelevant images or ads. Add it to another team collaboration software — TechAzora Note and share your findings with coworkers. Use the TechAzora Clipper collaboration tool online as a Chrome or Firefox extension.</p>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@ function Faq() {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                   2. How to use Wavemantra Platform for team collaboration?
+                   2. How to use TechAzora Platform for team collaboration?
                   </button>
                 </h2>
                 <div
@@ -57,7 +57,7 @@ function Faq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    <p>Wavemantra Platform is a team collaboration software with multiple products. Thus, it provides a lot of features for teamwork. Invite colleagues to your workspace in the Wavemantra online collaboration tool and manage data together. Furthermore, start asynchronous collaboration by leaving comments on text blocks to let colleagues answer when convenient. Or communicate in our collaboration tool online via chats. Finally, assign tasks with Task lists, @ mentions and more. Use Wavemantra Platform team collaboration software for getting work done!</p>
+                    <p>TechAzora Platform is a team collaboration software with multiple products. Thus, it provides a lot of features for teamwork. Invite colleagues to your workspace in the TechAzora online collaboration tool and manage data together. Furthermore, start asynchronous collaboration by leaving comments on text blocks to let colleagues answer when convenient. Or communicate in our collaboration tool online via chats. Finally, assign tasks with Task lists, @ mentions and more. Use TechAzora Platform team collaboration software for getting work done!</p>
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@ function Faq() {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    3. How to use Wavemantra Platform for clients?
+                    3. How to use TechAzora Platform for clients?
                   </button>
                 </h2>
                 <div
@@ -81,8 +81,8 @@ function Faq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    <p>Wavemantra Platform offers you Client Portals — coding-free websites for businesses. This is your perfect tool for online collaboration with clients and professional product presentation.</p>
-                    <p>Use it to provide your clients with needed content based on super pages from your Wavemantra Note. Edit work documents in this online tool for collaboration and all changes will automatically appear on your portal! BTW, the portals are fully-customizable online collaboration tools: you can add your logo, branding and even custom domain (CNAME). Demonstrate a competent approach to customer communication and build client trust!</p>
+                    <p>TechAzora Platform offers you Client Portals — coding-free websites for businesses. This is your perfect tool for online collaboration with clients and professional product presentation.</p>
+                    <p>Use it to provide your clients with needed content based on super pages from your TechAzora Note. Edit work documents in this online tool for collaboration and all changes will automatically appear on your portal! BTW, the portals are fully-customizable online collaboration tools: you can add your logo, branding and even custom domain (CNAME). Demonstrate a competent approach to customer communication and build client trust!</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ function Faq() {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    4. Is Wavemantra Platform a free online collaboration tool?
+                    4. Is TechAzora Platform a free online collaboration tool?
                   </button>
                 </h2>
                 <div
@@ -107,7 +107,7 @@ function Faq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    <p>NWavemantra team collaboration software has a Free plan to explore its key features. It is available after a no-cost 14-day business trial, which lets you experience all the platform's powers. Then, you can choose a Free plan, but to get the best global collaboration with the online tool, consider the Pro or Business options that have more to offer. Try Wavemantra Platform as an online collaboration tool when working with colleagues and clients and decide which plan of our team collaboration software best suits your needs.</p>
+                    <p>NTechAzora team collaboration software has a Free plan to explore its key features. It is available after a no-cost 14-day business trial, which lets you experience all the platform's powers. Then, you can choose a Free plan, but to get the best global collaboration with the online tool, consider the Pro or Business options that have more to offer. Try TechAzora Platform as an online collaboration tool when working with colleagues and clients and decide which plan of our team collaboration software best suits your needs.</p>
                   </div>
                 </div>
               </div>

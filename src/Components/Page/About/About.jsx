@@ -25,7 +25,7 @@ function About() {
             />
           </div>
           <div className="col-xl-8 Content-center">
-            At WaveMantra, creating amazing digital experiences is our passion. Being a top web development firm, we excel at developing one-of-a-kind solutions that are offered to the particular requirements of our customers. We work hard to offer creative, high-quality web solutions that produce results with our committed team of talented professionals, state-of-the-art technology, and trusted techniques. We can help you reach your online objectives and improve your digital presence, regardless of your size—startup, SME, or business. Together, let's take on the task of achieving your vision.
+            At TechAzora, creating amazing digital experiences is our passion. Being a top web development firm, we excel at developing one-of-a-kind solutions that are offered to the particular requirements of our customers. We work hard to offer creative, high-quality web solutions that produce results with our committed team of talented professionals, state-of-the-art technology, and trusted techniques. We can help you reach your online objectives and improve your digital presence, regardless of your size—startup, SME, or business. Together, let's take on the task of achieving your vision.
 
           </div>
         </div>

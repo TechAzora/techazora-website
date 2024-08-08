@@ -116,8 +116,8 @@ function Contact() {
             <div className="p-4 text-center shadow-sm rounded">
               <i className="bi bi-envelope-fill  fs-2"></i>
               <div>
-                <a href="mailto:info@WaveMantra.com">
-                  info@WaveMantra.com
+                <a href="mailto:info@TechAzora.com">
+                  info@TechAzora.com
                 </a>
               </div>
             </div>

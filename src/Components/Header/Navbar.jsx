@@ -43,7 +43,7 @@ function Navbar() {
           <div className="container">
             <Link to='/' className="navbar-brand" href="#">
               {/* <img src={logo} alt="" /> */}
-              <h2><span className="display-6 color fw-bold">W</span>ave<span>M</span>antra</h2>
+              <h2><span className="display-6 color fw-bold">Tech</span>Azora</h2>
             </Link>
             <button
               className="navbar-toggler d-none"
@@ -89,7 +89,7 @@ function Navbar() {
                     Services
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     to="/projects"
                     className={`nav-link ${location.pathname === "/projects" ? "active-navbar" : ""
@@ -98,7 +98,7 @@ function Navbar() {
                   >
                     Projects
                   </Link>
-                </li>
+                </li> */}
                 {/* <li className="nav-item">
                   <Link
                     to="/join"

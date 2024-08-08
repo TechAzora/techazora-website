@@ -11,8 +11,8 @@ function HomeAboutus() {
                     <div className="col-xl-7 Content-center">
                         <div className='px-2 py-3'>
                             <p className='fs-4 fw-bold'>Tasks and <span className='color'>Workflows</span></p>
-                            <p>In today's project management landscape, simplicity reigns supreme. Wavemantra tasks offer a straightforward, effective solution that avoids overwhelming complexity. With intuitive features, it keeps both you and your clients focused on what matters most: achieving goals efficiently.</p>
-                            <p>Wavemantra tasks simplify project management, fostering seamless collaboration between teams and clients. Its user-friendly interface ensures smooth communication and streamlined workflows, enhancing productivity and client satisfaction.</p>
+                            <p>In today's project management landscape, simplicity reigns supreme. TechAzora tasks offer a straightforward, effective solution that avoids overwhelming complexity. With intuitive features, it keeps both you and your clients focused on what matters most: achieving goals efficiently.</p>
+                            <p>TechAzora tasks simplify project management, fostering seamless collaboration between teams and clients. Its user-friendly interface ensures smooth communication and streamlined workflows, enhancing productivity and client satisfaction.</p>
                         </div>
                     </div>
                     <div className="col-xl-3">

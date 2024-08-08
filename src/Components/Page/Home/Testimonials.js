@@ -9,12 +9,12 @@ function Testimonials() {
     {
       id: "1",
       heading: "Amit Kumar",
-      pra: "Keeping in mind startups and entrepreneurs, WaveMantra provides premium web design and development services and all this at an affordable price. I am going to collaborate with them for my SMO services. ",
+      pra: "Keeping in mind startups and entrepreneurs, TechAzora provides premium web design and development services and all this at an affordable price. I am going to collaborate with them for my SMO services. ",
     },
     {
       id: "2",
       heading: "Yuva Singh",
-      pra: "WaveMantra delivered us a totally new look and consider for our accounting website and we are highly delighted by getting a fabulous output quality. ",
+      pra: "TechAzora delivered us a totally new look and consider for our accounting website and we are highly delighted by getting a fabulous output quality. ",
     },
     {
       id: "3",
@@ -24,7 +24,7 @@ function Testimonials() {
     {
       id: "4",
       heading: "Sushil",
-      pra: "WaveMantra has made easier for us to keep our business up-to-date as we got our dynamic website built by them. The whole team is very warm, knowledgeable and professional. Honestly, we would suggest contacting WaveMantra if you need the best Digital help.",
+      pra: "TechAzora has made easier for us to keep our business up-to-date as we got our dynamic website built by them. The whole team is very warm, knowledgeable and professional. Honestly, we would suggest contacting TechAzora if you need the best Digital help.",
     },
   ];
   return (
@@ -33,7 +33,7 @@ function Testimonials() {
         <div className="row justify-content-center">
           <div className="col-xl-10">
             <h1 className="fw-bold pb-4 display-5 text-center">
-              Find Out What People Are Saying About <span className="color">WaveMantra</span>
+              Find Out What People Are Saying About <span className="color">TechAzora</span>
             </h1>
             <OwlCarousel
               className="owl-theme"

@@ -28,7 +28,7 @@ function Join() {
               </h1>
 
               <p>
-              Are you prepared to have a major effect in the digital area? Talented people who are enthusiastic about innovation and technology are always in demand at WaveMantra. If you are eager to work with a team on interesting projects in a fast-paced environment, we would love to talk with you. Look over the roles we have open and begin a rewarding career with us. Come define the future of web development with us at WaveMantra, where creativity and technology collide.
+              Are you prepared to have a major effect in the digital area? Talented people who are enthusiastic about innovation and technology are always in demand at TechAzora. If you are eager to work with a team on interesting projects in a fast-paced environment, we would love to talk with you. Look over the roles we have open and begin a rewarding career with us. Come define the future of web development with us at TechAzora, where creativity and technology collide.
               </p>
             </div>
           </div>

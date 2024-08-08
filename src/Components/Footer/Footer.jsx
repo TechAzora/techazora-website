@@ -10,13 +10,10 @@ function Footer() {
             <div className="row">
               <div className="col-xl-3">
                 <Link to="/" className="navbar-brand" href="#">
-                  <h2>
-                    <span className="display-6 color fw-bold">W</span>ave
-                    <span>M</span>antra
-                  </h2>
+                <h2><span className="display-6 color fw-bold">Tech</span>Azora</h2>
                 </Link>
                 <p className="">
-                  WaveMantra stands out as a premier Web & App Development
+                  TechAzora stands out as a premier Web & App Development
                   Company, pioneering innovative ideas that culminate in
                   exceptional website craftsmanship.
                 </p>
@@ -87,22 +84,22 @@ function Footer() {
                 </p>
                 <p>
                   <i className="bi bi-envelope text-secondary"></i>
-                  <a href="mailto:WaveMantras@gmail.com" className="text-dark">
+                  <a href="mailto:TechAzoras@gmail.com" className="text-dark">
                     {" "}
-                    WaveMantras@gmail.com
+                    info.techazora@gmail.com
                   </a>
                 </p>
                 <div className="d-flex">
-                  <i className="bi bi-facebook  ions fs-4 text-primary"></i>
+                  {/* <i className="bi bi-facebook  ions fs-4 text-primary"></i> */}
                   <a href="https://wa.me/9643191066" target="?blank">
                     {" "}
                     <i className="bi bi-whatsapp mx-2 ions fs-4 text-success"></i>
                   </a>
-                  <a href="https://www.instagram.com/wavemantras/" target="_blank">
+                  <a href="https://www.instagram.com/techAzora/" target="_blank">
                     {" "}
                     <i className="bi bi-instagram mx-2 ions fs-4 text-danger"></i>
                   </a>
-                  <i className="bi bi-twitter-x mx-2 ions fs-4 text-dark"></i>
+                  {/* <i className="bi bi-twitter-x mx-2 ions fs-4 text-dark"></i> */}
                 </div>
               </div>
             </div>
@@ -111,7 +108,7 @@ function Footer() {
           <hr />
           <div className="col-xl-10">
             <p style={{ fontSize: "small" }}>
-              WaveMantra is Delhi's leading integrated social media and digital
+              TechAzora is Delhi's leading integrated social media and digital
               marketing enterprise. With a team exceeding seventy-five
               professionals, we proudly stand as an award-winning full-stack
               digital marketing organization in India. We specialize in
@@ -124,7 +121,7 @@ function Footer() {
               Privacy Policy | All Rights Reserved by{" "}
               <span className="color">
                 {" "}
-                <a href="https://WaveMantra.com/">WaveMantra</a>{" "}
+                <a href="https://TechAzora.com/">TechAzora</a>{" "}
               </span>
             </p>
           </div>
