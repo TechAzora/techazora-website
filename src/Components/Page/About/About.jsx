@@ -15,100 +15,106 @@ function About() {
         </div>
       </div>
       <div className="container my-5">
-        {/* <h1 className="display-5 fw-bold text-center">A FEW WORDS ABOUT US</h1> */}
-        <div className="row bg-light py-4 px-2 rounded shadow-sm">
-          <div className="col-xl-4">
-            <img
-              src={require("../../../Image/about-2.png")}
-              alt=""
-              className="img-fluid rounded"
-            />
-          </div>
-          <div className="col-xl-8 Content-center">
-            At TechAzora, creating amazing digital experiences is our passion. Being a top web development firm, we excel at developing one-of-a-kind solutions that are offered to the particular requirements of our customers. We work hard to offer creative, high-quality web solutions that produce results with our committed team of talented professionals, state-of-the-art technology, and trusted techniques. We can help you reach your online objectives and improve your digital presence, regardless of your size—startup, SME, or business. Together, let's take on the task of achieving your vision.
-
-          </div>
-        </div>
-
-        <div className="row bg-light py-4 px-2 rounded shadow-sm my-5 row-reverse">
-          <div className="col-xl-4">
-            <img
-              src={require("../../../Image/about-1.png")}
-              alt=""
-              className="img-fluid rounded"
-            />
-          </div>
-          <div className="col-xl-8 Content-center">
-
-            Our committed team of experts consists of designers, developers, SEO experts, advertising, and specialists with extensive backgrounds who are passionate about what they do.
-
-          </div>
-
-        </div>
-
-        <div className="row bg-light py-4 px-2 rounded shadow-sm my-5">
-          <div className="col-xl-4">
-            <img
-              src={require("../../../Image/about-3.png")}
-              alt=""
-              className="img-fluid rounded"
-            />
-          </div>
-          <div className="col-xl-8 Content-center">
-            To enhance your work in this fiercely competitive business world, please get in touch with us. Our team of professionals will assist you in managing your work or business by your goals and objectives, corporate requirements, policies, rules, and regulations, and the best custom design for your company.
-
-          </div>
-        </div>
-
-        <div className="row justify-content-center">
-          <div className="col-xl-6 my-3">
-            <div className="px-4 py-5 bg-white shadow-sm rounded">
+      <div className="row justify-content-center">
+          <div className="col-xl-12 my-3">
+            <div className="px-4 py-5">
               <h1 className="text-center fw-bold">
-                Our Mi<span className="color">ss</span>ion
+                Mi<span className="color">ss</span>ion &  vi<span className="color">si</span>on
               </h1>
-              <p className="text-center">
-                To raise our clients' standards with us by offering them
-
-              </p>
-              <p><i className="bi bi-check-circle color"></i> Creative concepts and confidence in our offerings
-              </p>
-              <p><i className="bi bi-check-circle color"></i> Complete technical assistance from our group
-
-              </p>
-              <p><i className="bi bi-check-circle color"></i> Offers the greatest counsel to our clients
-
-</p>
-
+              <p className="">
+              At TechAzora, we pride ourselves on our creative concepts and unwavering confidence in our offerings. Our team provides complete technical assistance, ensuring that you receive the best guidance and support throughout your journey with us. We are dedicated to delivering the finest websites tailored to your business needs, along with comprehensive branding strategies that help your brand stand out. Additionally, our top-tier digital marketing services are designed to maximize your online presence, driving growth and success in the digital landscape.              </p>
+             
             </div>
           </div>
-          <div className="col-xl-6 my-3">
-            <div className="px-4 py-5 bg-white shadow-sm rounded">
-              <h1 className="text-center fw-bold">
-                Our vi<span className="color">si</span>on
-              </h1>
-              <p className="text-center">
-                We can assist you in picturing your work thanks to our bravery and capacity for completing tasks with all of our fervor and excitement.
-
-              </p>
-              <p><i className="bi bi-check-circle color"></i> We provide you with the finest website for your business</p>
-              <p><i className="bi bi-check-circle color"></i> We create branding plans for our clients.
-
-              </p>
-              <p><i className="bi bi-check-circle color"></i> We offer the top services for digital marketing.
-              </p>
-            </div>
+         
+        </div>
+        <div className="row bg-light py-4 px-2 rounded shadow-sm my-3">
+          <div className="col-xl-12">
+            <h1 className="fs-2">
+              <span className="color">App</span> Development
+            </h1>
+            <p>
+              At TechAzora, our app development team excels in creating dynamic,
+              user-friendly applications that resonate with your audience. We
+              leverage powerful technologies like Flutter and React Native to
+              build cross-platform apps that deliver seamless experiences on
+              both iOS and Android. Whether you're looking to launch a new app
+              or revamp an existing one, we focus on creating scalable,
+              high-performance solutions that align with your business goals and
+              enhance your users' digital journey.
+            </p>
           </div>
         </div>
 
+        <div className="row  py-4 px-2 rounded shadow-sm my-3">
+          <div className="col-xl-12">
+            <h1 className="fs-2">
+              <span className="color">Web</span> Design and Development
+            </h1>
+            <p>
+              Our web development services at TechAzora are centered on building
+              robust, scalable websites that not only look stunning but also
+              deliver exceptional performance. Using the MERN stack, we create
+              responsive, interactive websites that cater to your specific
+              business needs. From sleek, modern designs to complex,
+              feature-rich web applications, our team ensures your online
+              presence is both visually appealing and highly functional, driving
+              user engagement and business growth.
+            </p>
+          </div>
+        </div>
+
+        <div className="row bg-light  py-4 px-2 rounded shadow-sm my-3">
+          <div className="col-xl-12">
+            <h1 className="fs-2">
+              <span className="color">Graphic</span> Design
+            </h1>
+            <p>
+              TechAzora's graphic design team brings creativity and innovation
+              to every project, crafting visually compelling designs that
+              capture your brand's essence. We specialize in creating custom
+              graphics that elevate your brand identity and resonate with your
+              target audience. Whether it’s logos, marketing materials, or
+              complete branding packages, our designers work closely with you to
+              produce designs that stand out in the crowded digital landscape.
+            </p>
+          </div>
+        </div>
+
+        <div className="row  py-4 px-2 rounded shadow-sm my-3">
+          <div className="col-xl-12">
+            <h1 className="fs-2">
+              <span className="color">Digital</span> Marketing
+            </h1>
+            <p>
+              At TechAzora, our digital marketing services are designed to
+              maximize your online reach and engagement. We specialize in SEO,
+              social media marketing, and comprehensive digital strategies that
+              drive traffic, boost visibility, and convert visitors into loyal
+              customers. Our marketing experts use data-driven techniques to
+              optimize your online presence, ensuring that your brand reaches
+              the right audience and achieves measurable results in today’s
+              competitive market.
+            </p>
+          </div>
+        </div>
         <div className="row my-5 footer-color rounded px-3">
           <div className="col-xl-6 Content-center">
             <div>
-              <h1 className="display-7 fw-bold">Strong & <span className="color">Fantastic </span> Marketing</h1>
-              <p className="p-3 my-2 shadow-sm rounded">Our strategy for expanding our company is crucial in that it involves giving our company internet marketing.
+              <h1 className="display-7 fw-bold">
+                Strong & <span className="color">Fantastic </span> Marketing
+              </h1>
+              <p className="p-3 my-2 shadow-sm rounded">
+                Our strategy for expanding our company is crucial in that it
+                involves giving our company internet marketing.
               </p>
-              <p className="p-3 my-2 shadow-sm rounded">Your online presence serves as a means of demonstrating to potential clients that you are the industry leader.
+              <p className="p-3 my-2 shadow-sm rounded">
+                Your online presence serves as a means of demonstrating to
+                potential clients that you are the industry leader.
               </p>
-              <p className="p-3 my-2 shadow-sm rounded">Our goal is to enhance our client’s brands in the eyes of the public.
+              <p className="p-3 my-2 shadow-sm rounded">
+                Our goal is to enhance our client’s brands in the eyes of the
+                public.
               </p>
             </div>
           </div>

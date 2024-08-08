@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../Image/logo.png';
 
 function Footer() {
   return (
@@ -10,7 +11,8 @@ function Footer() {
             <div className="row">
               <div className="col-xl-3">
                 <Link to="/" className="navbar-brand" href="#">
-                <h2><span className="display-6 color fw-bold">Tech</span>Azora</h2>
+                <img src={logo} alt=""  className="img-fluid logo-image"/>
+
                 </Link>
                 <p className="">
                   TechAzora stands out as a premier Web & App Development

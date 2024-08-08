@@ -42,8 +42,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg">
           <div className="container">
             <Link to='/' className="navbar-brand" href="#">
-              {/* <img src={logo} alt="" /> */}
-              <h2><span className="display-6 color fw-bold">Tech</span>Azora</h2>
+              <img src={logo} alt=""  className="img-fluid logo-image"/>
             </Link>
             <button
               className="navbar-toggler d-none"

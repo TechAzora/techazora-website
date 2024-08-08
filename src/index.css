@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif !important;
 }
 .Content-center {
   display: flex;
@@ -140,4 +140,9 @@ a{
 }
 .img-fit{
   object-fit: cover;
+}
+.logo-image{
+   height:65px;
+   width: auto;
+   object-fit: cover;
 }

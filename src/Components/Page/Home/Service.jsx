@@ -34,7 +34,8 @@ function Service() {
         <div className="row justify-content-center py-5">
           <div className="col-xl-10">
             <h1 className="display-5 fw-bold text-center">
-              We're Your <span className="color">Complete</span> Digital Creative Consulting Agency
+            Your <span className="color">All-In-One</span> Digital Service Partner
+                
             </h1>
             <div className="row">
               <div className="col-xl-4 px-2">
