@@ -1,0 +1,18 @@
+.blogh6tage {
+    display: inline;
+    padding:5px;
+    border-radius:5px;
+}
+.blogpragraph{
+    font-size: 18px;
+}
+.hreflink{
+    text-decoration:none;
+}
+.hreflink:hover{
+    color: grey;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.background{
+    background-color:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    margin:5px;
+    height:400px;
+  }
+  .owl-carousel .owl-nav button.owl-prev{
+      font-size: 70px !important;
+      color:#6c63ff;
+      margin-top: -30px;
+  }
+  .owl-carousel .owl-nav button.owl-next{
+    font-size: 70px !important;
+    color:#6c63ff;
+    margin-top: -30px;
+}
+.owl-theme .owl-nav {
+  margin-top:none !important;
+  text-align: center;
+  -webkit-tap-highlight-color:none !important;
+}
+.carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot:hover{
+  background-color:none !important;
+}

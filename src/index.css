@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.Content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-color {
+  background: linear-gradient(
+    103.3deg,
+    #f5f5f7 0%,
+    #f5f5f7 16.67%,
+    #ffffff 49.48%,
+    #e3ffe071 100%
+  );
+}
+.background-color-admin {
+  background: linear-gradient(
+    103.3deg,
+    #f5f5f7 0%,
+    #f5f5f7 16.67%,
+    #e3ffe071 100%
+  );
+}
+.btn-style{
+  border: none;
+  border-radius:30px;
+  background-color:black;
+  color: white;
+  padding:15px 45px 14px;
+  font-size: large;
+}
+.btn-style:hover{
+  border:2px solid#6c63ff;
+  background: transparent;
+  color: black;
+  padding:13px 45px 13px;
+  transition:ease-in-out 10ms;
+}
+.font-size-small{
+  font-size: small;
+}
+a{
+ text-decoration: none;
+ color: #6c63ff;
+}
+.menucolor{
+  background-color: #6c63ff !important;
+  color: white !important;
+}
+.ions{
+  background-color:white;
+  cursor: pointer;
+  box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb),.075);
+  border-radius:50%;
+  width:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.form-control{
+  box-shadow: none !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  border-top: none !important;
+  border-right:none !important;
+  border-left:none !important;
+  border-radius:none !important;
+
+}
+.newsletter{
+  height:52px;
+  border: none !important;
+}
+
+.newsletter-button{
+  background-color:white !important;
+  border: none !important;
+  color: #6c63ff;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.background-newsletter {
+  background: linear-gradient(
+    103.3deg,
+    #00d95ac6 0%,
+    #00d95ac6 16.67%,
+    #00d95ac9 49.48%,
+    #00d95a23 100%
+  );
+}
+.navbar-toggler{
+  box-shadow: none !important;
+  border: none !important;
+}
+.FontSize{
+  font-size: small;
+}
+
+.row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+@media only screen and (min-width: 600px) {
+ 
+}
+.footer-color {
+  background: linear-gradient(
+    103.3deg,
+    #f5f5f7 0%,
+    #f5f5f7 16.67%,
+    #e3ffe029 49.48%,
+    #e3ffe071 100%
+  );
+}
+.text-justify{
+  text-align: justify;
+}
+
+.accordion-item{
+  box-shadow: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-top: none !important;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.accordion-button{
+  box-shadow: none !important;
+    color: black !important;
+
+}
+.accordion{
+  border: none !important;
+}
+.img-fit{
+  object-fit: cover;
+}
