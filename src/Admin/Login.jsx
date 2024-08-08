@@ -73,7 +73,7 @@ function Login() {
                     me
                   </label>
                 </div> */}
-                <button className="w-100 btn btn-lg border my-3 text-white" style={{backgroundColor:"#6c63ff"}} type="submit">{
+                <button className="w-100 btn btn-lg border my-3 text-white" style={{backgroundColor:"#1688CD"}} type="submit">{
                   status === "loading" && "succeeded" ? <div className="spinner-border spinner-border-sm disabled text-white" style={{ color: "#1976D2" }} role="status">
                     <span className="visually-hidden">Loading...</span>
                   </div> : "Login"

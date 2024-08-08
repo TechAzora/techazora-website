@@ -33,7 +33,7 @@ body {
   font-size: large;
 }
 .btn-style:hover{
-  border:2px solid#6c63ff;
+  border:2px solid#1688CD;
   background: transparent;
   color: black;
   padding:13px 45px 13px;
@@ -44,10 +44,10 @@ body {
 }
 a{
  text-decoration: none;
- color: #6c63ff;
+ color: #1688CD;
 }
 .menucolor{
-  background-color: #6c63ff !important;
+  background-color: #1688CD !important;
   color: white !important;
 }
 .ions{
@@ -78,7 +78,7 @@ a{
 .newsletter-button{
   background-color:white !important;
   border: none !important;
-  color: #6c63ff;
+  color: #1688CD;
   font-weight: bold;
   cursor: pointer;
   
