@@ -136,7 +136,7 @@ function Navbar() {
       </div>
       <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style={{ width: "280px" }}>
         <div className="offcanvas-header">
-          <h2><span className="display-6 color fw-bold">W</span>ave<span>M</span>antra</h2>
+        <img src={logo} alt=""  className="img-fluid logo-image"/>
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div className="offcanvas-body">
