@@ -86,9 +86,9 @@ function Footer() {
                 </p>
                 <p>
                   <i className="bi bi-envelope text-secondary"></i>
-                  <a href="mailto:TechAzoras@gmail.com" className="text-dark">
+                  <a href="mailto:info@techazora.com" className="text-dark">
                     {" "}
-                    info.techazora@gmail.com
+                    info@techazora.com
                   </a>
                 </p>
                 <div className="d-flex">
