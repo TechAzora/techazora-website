@@ -88,7 +88,7 @@ function Navbar() {
                     Services
                   </Link>
                 </li>
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <Link
                     to="/projects"
                     className={`nav-link ${location.pathname === "/projects" ? "active-navbar" : ""
@@ -97,7 +97,7 @@ function Navbar() {
                   >
                     Projects
                   </Link>
-                </li> */}
+                </li>
                 {/* <li className="nav-item">
                   <Link
                     to="/join"

@@ -98,7 +98,7 @@ function Projects() {
                             />
                           ) : (
                             <img
-                              src={require("../../../Image/bannerImage.png")}
+                              src={require("../../../Image/logo.png")}
                               alt=""
                               className="img-fit rounded"
                               width={"100%"}
@@ -117,6 +117,7 @@ function Projects() {
                             <Link to={`/ProjectDetails/${_id}`}>Read More</Link>
                           </h6> */}
                         </div>
+                        <div className="d-flex justify-content-between">
                         {applink && (
                           <div className="d-flex">
                             <h6
@@ -131,7 +132,7 @@ function Projects() {
                         )}
                         {weblink && (
                           <h6
-                            className="text-primary"
+                            className="text-primary px-2 py-1 rounded bg-light"
                             style={{ fontSize: "13px" }}
                           >
                             <a href={weblink} target="_blank">
@@ -139,6 +140,7 @@ function Projects() {
                             </a>
                           </h6>
                         )}
+                        </div>
                       </div>
                     </div>
                   </div>

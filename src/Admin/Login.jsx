@@ -3,6 +3,7 @@ import "./login.css";
 import { useNavigate } from "react-router-dom";
 import { login } from "../ReduxToolkit/Slice/LoginSlice";
 import { useDispatch, useSelector } from "react-redux";
+import logo from '../../src/Image/logo.png';
 
 function Login() {
   const history = useNavigate();
@@ -43,7 +44,9 @@ function Login() {
           <div className="col-md-4 margin bg-white rounded shadow">
             <main className="form-signin">
               <form onSubmit={formdata}>
-              <h1 className="my-3 text-center"><span className="fw-bold color">W</span>aveMantra</h1>
+             <div className="text-center">
+             <img src={logo} alt=""  className="img-fluid logo-image"/>
+             </div>
               <h1 className="h3 text-center">Login</h1>
                 <div className="form-floating">
                   <input

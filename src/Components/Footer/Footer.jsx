@@ -97,7 +97,7 @@ function Footer() {
                     {" "}
                     <i className="bi bi-whatsapp mx-2 ions fs-4 text-success"></i>
                   </a>
-                  <a href="https://www.instagram.com/techAzora/" target="_blank">
+                  <a href="https://www.instagram.com/techazora?igsh=MTY1Mnp5anZlbG56aQ==" target="_blank">
                     {" "}
                     <i className="bi bi-instagram mx-2 ions fs-4 text-danger"></i>
                   </a>
