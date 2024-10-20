@@ -18,9 +18,9 @@ function Service() {
           </div>
           <div className="col-xl-6 Content-center">
             <div className="p-2">
-              <h1 className="fw-bold display-6">
+              <h4 className="fw-bold display-6">
                 Unlock More <span className="color"> Leads </span>: Our Proven Solution is Here.
-              </h1>
+              </h4>
               <h1 className="fs-5">
                 Maximize Online Exposure for Higher Revenue: SEO, SMO, PPC, SEM Solutions.
               </h1>
@@ -41,9 +41,9 @@ function Service() {
               <div className="col-xl-4 px-2">
                 <div className="shadow-sm rounded">
                   <div className="px-3 py-3">
-                    <h1 className="text-center fs-4 fw-bold">
+                    <h2 className="text-center fs-4 fw-bold">
                       <span className="color">Web </span>Development
-                    </h1>
+                    </h2>
                     {/* <img
                       src={require("../../../Image/web.png")}
                       alt=""
@@ -60,9 +60,9 @@ function Service() {
               <div className="col-xl-4 px-2">
                 <div className="shadow-sm rounded">
                   <div className="px-3 py-3">
-                    <h1 className="text-center fs-4 fw-bold">
+                    <h2 className="text-center fs-4 fw-bold">
                       <span className="color">App </span>Development
-                    </h1>
+                    </h2>
                     {/* <img
                       src={require("../../../Image/app.png")}
                       alt=""
@@ -81,9 +81,9 @@ function Service() {
               <div className="col-xl-4 px-2">
                 <div className="shadow-sm rounded">
                   <div className="px-3 py-3">
-                    <h1 className="fs-4 fw-bold text-center">
+                    <h2 className="fs-4 fw-bold text-center">
                       <span className="color">Digital </span>Marketing
-                    </h1>
+                    </h2>
                     {/* <img
                       src={require("../../../Image/seo.png")}
                       alt=""

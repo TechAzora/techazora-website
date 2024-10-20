@@ -12,11 +12,11 @@ function Home() {
 
             <div className="col-xl-10 Content-center">
               <div>
-                <h1 className="display-1 fw-bold">
+                <p className="display-1 fw-bold">
                 <span className="color">Empowering</span> Your Digital Journey
 
                   <hr />
-                </h1>
+                </p>
                 <p>
                <sub className="fs-2 color">"</sub> With our innovative approach, every project is treated as our first and best. We bring your vision to life with passion and expertise, delivering standout websites and apps that exceed expectations.<sub className="fs-2 color">"</sub>
                 </p>
@@ -29,10 +29,10 @@ function Home() {
         <div className="row justify-content-center">
           <div className="col-xl-10">
             {" "}
-            <h1 className="fw-bold text-center display-5">
+            <h3 className="fw-bold text-center display-5">
               {" "}
               Optimize Your Business Collaboration with Our Top Tool
-            </h1>
+            </h3>
           </div>
           <div className="row py-3 justify-content-center">
             <div className="col-xl-2 col-6 text-center">

@@ -8,9 +8,9 @@ function About() {
       <div className="container-fluid background-color">
         <div className="row">
           <div className="col-xl-12 py-3">
-            <h1 className="fw-bold text-center display-6">
+            <p className="fw-bold text-center display-6">
               About <span className="color">Us</span>
-            </h1>
+            </p>
           </div>
         </div>
       </div>
@@ -30,9 +30,9 @@ function About() {
         </div>
         <div className="row bg-light py-4 px-2 rounded shadow-sm my-3">
           <div className="col-xl-12">
-            <h1 className="fs-2">
+            <h2 className="fs-2">
               <span className="color">App</span> Development
-            </h1>
+            </h2>
             <p>
               At TechAzora, our app development team excels in creating dynamic,
               user-friendly applications that resonate with your audience. We
@@ -48,9 +48,9 @@ function About() {
 
         <div className="row  py-4 px-2 rounded shadow-sm my-3">
           <div className="col-xl-12">
-            <h1 className="fs-2">
+            <h2 className="fs-2">
               <span className="color">Web</span> Design and Development
-            </h1>
+            </h2>
             <p>
               Our web development services at TechAzora are centered on building
               robust, scalable websites that not only look stunning but also
@@ -66,9 +66,9 @@ function About() {
 
         <div className="row bg-light  py-4 px-2 rounded shadow-sm my-3">
           <div className="col-xl-12">
-            <h1 className="fs-2">
+            <h2 className="fs-2">
               <span className="color">Graphic</span> Design
-            </h1>
+            </h2>
             <p>
               TechAzora's graphic design team brings creativity and innovation
               to every project, crafting visually compelling designs that
@@ -83,9 +83,9 @@ function About() {
 
         <div className="row  py-4 px-2 rounded shadow-sm my-3">
           <div className="col-xl-12">
-            <h1 className="fs-2">
+            <h2 className="fs-2">
               <span className="color">Digital</span> Marketing
-            </h1>
+            </h2>
             <p>
               At TechAzora, our digital marketing services are designed to
               maximize your online reach and engagement. We specialize in SEO,
@@ -101,9 +101,9 @@ function About() {
         <div className="row my-5 footer-color rounded px-3">
           <div className="col-xl-6 Content-center">
             <div>
-              <h1 className="display-7 fw-bold">
+              <h2 className="display-7 fw-bold">
                 Strong & <span className="color">Fantastic </span> Marketing
-              </h1>
+              </h2>
               <p className="p-3 my-2 shadow-sm rounded">
                 Our strategy for expanding our company is crucial in that it
                 involves giving our company internet marketing.

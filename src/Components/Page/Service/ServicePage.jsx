@@ -6,9 +6,9 @@ function ServicePage() {
       <div className="container-fluid background-color">
         <div className="row">
           <div className="col-xl-12 py-3">
-            <h1 className="fw-bold text-center display-6">
+            <p className="fw-bold text-center display-6">
               Servic<span className="color">es</span>
-            </h1>
+            </p>
           </div>
         </div>
       </div>
@@ -29,9 +29,9 @@ function ServicePage() {
               height="80px"
               width="auto"
             />
-            <h1 className="fw-bold fs-3">
+            <h2 className="fw-bold fs-3">
               App Development | Web Design & Development | UI/UX Design
-            </h1>
+            </h2>
             <p>
               {" "}
               <i className="bi bi-check-circle color"></i> Lively Web Pages
@@ -95,9 +95,9 @@ function ServicePage() {
                 height="90px"
                 width="auto"
               />
-              <h1 className="fw-bold fs-3">
+              <h2 className="fw-bold fs-3">
                 The Creative and Digital Approach
-              </h1>
+              </h2>
               <p>
                 {" "}
                 <i className="bi bi-check-circle color"></i> Branding
@@ -147,9 +147,9 @@ function ServicePage() {
                 height="100px"
                 width="auto"
               />
-              <h1 className="fw-bold fs-3">
+              <h2 className="fw-bold fs-3">
                 Planning and Purchasing for Media
-              </h1>
+              </h2>
               <p>
                 {" "}
                 <i className="bi bi-check-circle color"></i> Digital Media
@@ -206,9 +206,9 @@ function ServicePage() {
                 height="80px"
                 width="auto"
               />
-              <h1 className="fw-bold fs-3">
+              <h2 className="fw-bold fs-3">
                 Analytical Tools and SEO Strategies
-              </h1>
+              </h2>
               <p>
                 {" "}
                 <i className="bi bi-check-circle color"></i> Examination of
@@ -256,9 +256,9 @@ function ServicePage() {
                 height="80px"
                 width="auto"
               />
-              <h1 className="fw-bold fs-3">
+              <h2 className="fw-bold fs-3">
                 Digital communications and branding Internet Promotion
-              </h1>
+              </h2>
               <p>
                 {" "}
                 <i className="bi bi-check-circle color"></i> Social Media
