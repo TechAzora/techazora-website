@@ -17,9 +17,9 @@ function Blogs() {
       <div className="container-fluid background-color">
         <div className="row">
           <div className="col-xl-12">
-            <h1 className="fw-bold text-center display-6 py-3">
+            <p className="fw-bold text-center display-6 py-3">
               Blo<span className="color">gs</span>
-            </h1>
+            </p>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ function BlogSinglePage() {
                 
               </div>
               <div className="p-3">
-                <h1>{singleBlogs.blogTitle ? singleBlogs.blogTitle :"Blogs" }</h1>
+                <h2>{singleBlogs.blogTitle ? singleBlogs.blogTitle :"Blogs" }</h2>
                 {/* <p className="allcolorsame fw-blod">
                   <b>Author : Amit kumar</b>
                 </p> */}
