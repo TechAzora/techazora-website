@@ -30,10 +30,7 @@ function Faq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                   <p>TechAzora Platform is an information management and team collaboration software. Build your knowledge base and easily share your data with the best online collaboration tools from TechAzora :</p>
-                   <p>TechAzora Note organizes documentation and provides an all-in-one digital work hub. Use this project collaboration tool online on the web.</p>
-                   <p>TechAzora Capture is an app for capturing screenshots & screen recordings. This asynchronous collaboration tool helps you explain things better and with ease. You can use the app for online team collaboration as a software app for Windows or as a Chrome extension.</p>
-                   <p>TechAzora Clipper extension saves web pages, articles, emails and PDFs. It’s an online tool that can be used for collaboration too. Save only necessary content from the page without irrelevant images or ads. Add it to another team collaboration software — TechAzora Note and share your findings with coworkers. Use the TechAzora Clipper collaboration tool online as a Chrome or Firefox extension.</p>
+                   <p>Techazora offers a range of digital solutions, including app development, web development, UI/UX design, and graphic design. From crafting user-friendly mobile apps and dynamic websites to creating intuitive user experiences and unique brand visuals, Techazora is dedicated to helping businesses build a strong digital presence.</p>
                   </div>
                 </div>
               </div>
