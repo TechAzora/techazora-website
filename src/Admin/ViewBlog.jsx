@@ -43,7 +43,6 @@ function ViewBlog() {
                   <th scope="col">Thumbnail</th>
                   <th scope="col">Title</th>
                   <th scope="col">date</th>
-                  <th scope="col">Status</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
@@ -65,7 +64,6 @@ function ViewBlog() {
                   blogs.blogs.map((data, index) => {
                     const { blogTitle, image, status, _id, createdAt } = data;
                     const newdate = new Date(createdAt);
-                    // Convert the date to a more readable format "day, month, year"
                     const formattedDate = newdate.toLocaleDateString("default", {
                       day: "2-digit",
                       month: "long",
@@ -83,7 +81,6 @@ function ViewBlog() {
                           className='rounded-circle img-fit' alt="" /> : <img src={require('../Image/intranet-icon.svg')} className='img-fluid' alt="" />}</td>
                         <td>{blogTitle}</td>
                         <td>{formattedDate}</td>
-                        <td>{status ? "true" : "false"}</td>
                         <td>
                           <Link to={`/editblog/${_id}`}><i className='bi bi-pencil-square fs-4'></i></Link>
                           <div>

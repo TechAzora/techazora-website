@@ -111,8 +111,7 @@ function Footer() {
           <div className="col-xl-10">
             <p style={{ fontSize: "small" }}>
               TechAzora is Delhi's leading integrated social media and digital
-              marketing enterprise. With a team exceeding seventy-five
-              professionals, we proudly stand as an award-winning full-stack
+              marketing enterprise. we proudly stand as an full-stack
               digital marketing organization in India. We specialize in
               delivering creative and innovative solutions for brands aiming to
               expand their online presence. If you're reading this, you've found

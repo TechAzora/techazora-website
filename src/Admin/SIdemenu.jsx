@@ -12,7 +12,7 @@ function SIdemenu() {
     return (
         <>
             <div className="col-lg-2 col-5 p-3 background-color-admin" style={{ height: "100vh" }}>
-                <>                    <span className="fs-4"><span className='color fw-bold'>W</span>aveMantra</span>
+                <>                    <span className="fs-4"><span className='color fw-bold'>Tech</span>Azora</span>
                 </>
                 <hr />
                 <ul className="nav nav-pills flex-column mb-auto">
