@@ -40,6 +40,12 @@ function SIdemenu() {
                             Contact
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/verifyDocs" className={({ isActive }) => `nav-link text-dark ${isActive ? "menucolor" : ""}`}>
+                            <i className="bi bi-lock" />{" "}
+                            Verify Documents
+                        </NavLink>
+                    </li>
                    
                 </ul>
                 <hr />

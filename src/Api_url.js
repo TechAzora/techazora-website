@@ -10,6 +10,14 @@ export const get_single_project_API = `${BASE_URL}api/project`
 export const create_project_API = `${BASE_URL}api/project/create`
 export const update_project_API = `${BASE_URL}api/project/update`
 export const delete_project_Api = `${BASE_URL}api/project`
+
+// verify-ducument
+export const get_VerifyDocs_API = `${BASE_URL}api/ducument/all`
+export const get_single_VerifyDocs_API = `${BASE_URL}api/ducument`
+export const create_VerifyDocs_API = `${BASE_URL}api/ducument/create`
+export const update_VerifyDocs_API = `${BASE_URL}api/ducument/update`
+export const delete_VerifyDocs_Api = `${BASE_URL}api/ducument`
+export const verifyducumentByIdAPi = `${BASE_URL}api/ducument/verify-document`
 // conact
 export const get_contact_API = `${BASE_URL}api/contact/All`
 export const create_contact_API = `${BASE_URL}api/contact/create`

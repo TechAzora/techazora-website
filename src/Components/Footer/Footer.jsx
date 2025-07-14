@@ -11,7 +11,7 @@ function Footer() {
             <div className="row">
               <div className="col-xl-3">
                 <Link to="/" className="navbar-brand" href="#">
-                <img src={logo} alt=""  className="img-fluid logo-image"/>
+                  <img src={logo} alt="" className="img-fluid logo-image" />
 
                 </Link>
                 <p className="">
@@ -90,6 +90,12 @@ function Footer() {
                     {" "}
                     info@techazora.com
                   </a>
+                </p>
+                <p>
+                  <i className="bi bi-lock text-secondary"></i>
+                  <Link to={"/verify-document"} className="text-dark">
+                    Verify-Document
+                  </Link>
                 </p>
                 <div className="d-flex">
                   {/* <i className="bi bi-facebook  ions fs-4 text-primary"></i> */}

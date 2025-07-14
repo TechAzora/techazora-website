@@ -24,12 +24,16 @@ import Projects from "./Components/Page/Projects/Projects";
 import ProjectDetails from "./Components/Page/Projects/ProjectDeatails";
 import AdminContact from "./Admin/AdminContact";
 import EditProject from "./Admin/Project/EditProject";
+import AddVerifyDocs from "./Admin/VerifyDoc/AddVerifyDoc";
+import EditVerifyDocs from "./Admin/VerifyDoc/EditVerifyDoc";
+import VerifyDocs from "./Admin/VerifyDoc/VerifyDoc";
+import VerifyDocumentPage from "./Components/Page/VerifyDocument/VerifyDocument";
 
 let App = () => {
   const location = useLocation();
 
   // Define routes where Navbar and Footer should not be displayed
-  const adminRoutes = ['/admin', '/AdminNavbar', '/UploadBlog', '/viewblog', '/dashboard', '/editblog','/adminproject','/addproject' ,'/editProject'];
+  const adminRoutes = ['/admin', '/AdminNavbar', '/UploadBlog', '/viewblog', '/dashboard', '/editblog','/adminproject','/addproject' ,'/editProject','/verifyDocs','/addVerifyDocs','/editVerifyDocs'];
 
   // Check if the current route is an admin route
   const isAdminRoute = adminRoutes.some(route => location.pathname.startsWith(route));
@@ -48,6 +52,7 @@ let App = () => {
         <Route path="contact" element={<Contact />} />
         <Route path="projects" element={<Projects />} />
         <Route path="ProjectDetails/:id" element={<ProjectDetails />} />
+        <Route path="verify-document" element={<VerifyDocumentPage />} />
         <Route path="*" element={<NotfoundPage />} />
         {/* admin */}
         <Route path='/admin' element={<Login />}></Route>
@@ -60,6 +65,10 @@ let App = () => {
         <Route path='/addproject' element={<PrivateRoute Component={AddProject} />}></Route>
         <Route path='/adminContact' element={<PrivateRoute Component={AdminContact} />}></Route>
         <Route path='/editProject/:id' element={<PrivateRoute Component={EditProject} />}></Route>
+        
+        <Route path='/verifyDocs' element={<PrivateRoute Component={VerifyDocs} />}></Route>
+        <Route path='/addVerifyDocs' element={<PrivateRoute Component={AddVerifyDocs} />}></Route>
+        <Route path='editVerifyDocs/:id' element={<PrivateRoute Component={EditVerifyDocs} />}></Route>
         {/* login */}
       </Routes>
       {!isAdminRoute && <Footer />}
