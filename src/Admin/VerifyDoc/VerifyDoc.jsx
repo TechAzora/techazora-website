@@ -60,6 +60,7 @@ function VerifyDocs() {
                 <tr className="bg-dark text-white">
                   <th scope="col">S.No</th>
                   <th scope="col">Employee Name</th>
+                  <th scope="col">Verification Id</th>
                   <th scope="col">Document</th>
                   <th scope="col">Issued Date</th>
                   <th scope="col">Actions</th>
@@ -87,9 +88,10 @@ function VerifyDocs() {
                     const {
                       _id,
                       employeeName,
+                      documentId,
                       documentFile,
                       issuedDate,
-                      documentId,
+                      
                     } = doc;
 
                     const formattedDate = new Date(issuedDate).toLocaleDateString(
@@ -105,6 +107,7 @@ function VerifyDocs() {
                       <tr key={_id}>
                         <th scope="row">{index + 1}</th>
                         <td>{employeeName}</td>
+                        <td>{documentId || "N/A"}</td>
                         <td>
                           {documentFile ? (
                             <a
