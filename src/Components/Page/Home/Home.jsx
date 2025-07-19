@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+    
       <div className="container-fluid py-5 background-color">
           <div className="row justify-content-center py-3">
 

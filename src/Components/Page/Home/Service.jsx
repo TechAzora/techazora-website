@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import websiteDevelopment from "../../../Animation/Web App Development.json";
 
 function Service() {
+
   return (
     <>
       <div className="container-fluid my-3">
