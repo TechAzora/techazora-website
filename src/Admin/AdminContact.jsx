@@ -5,14 +5,47 @@ import { useDispatch, useSelector, } from 'react-redux';
 import { getcontact, deletecontacts } from '../ReduxToolkit/Slice/contactSlice';
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import io from "socket.io-client";
+import { BASE_URL } from '../Api_url';
+
+const socket = io(BASE_URL, {
+    transports: ["websocket"],
+    reconnectionAttempts: 5,
+    reconnectionDelay: 1000,
+});
 function AdminContact() {
     const dispatch = useDispatch();
     const { contacts, status, error } = useSelector((state) => state.contact)
+
     useEffect(() => {
-        if (status === 'idle') {
-            dispatch(getcontact())
-        }
-    }, [status,dispatch])
+        dispatch(getcontact());
+
+        socket.on("connect", () => {
+            console.log("🔥 Socket Connected:", socket.id);
+        });
+
+        // Correct event name
+        socket.on("contactsUpdated", (data) => {
+            console.log("📢 Real-time Contacts Updated:", data);
+            dispatch(getcontact());   // refresh table instantly
+        });
+
+        socket.on("disconnect", () => {
+            console.log("⚠️ Socket Disconnected");
+        });
+
+        return () => {
+            socket.off("contactsUpdated");
+            socket.off("connect");
+            socket.off("disconnect");
+        };
+    }, []);
+
+    // useEffect(() => {
+    //     if (status === 'idle') {
+    //         dispatch(getcontact())
+    //     }
+    // }, [status,dispatch])
     const deletecontact = async (deletecontactId) => {
         const isConfrimed = window.confirm("Are your sure to delete this contact?")
         if (isConfrimed) {

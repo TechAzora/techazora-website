@@ -61,6 +61,7 @@ const contactSlice = createSlice({
                 if (state.status === 'succeeded') {
                     alert(state.message)
                 }
+                state.status = 'idle';
             })
             .addCase(createcontact.rejected, (state, action) => {
                 state.status = 'failed';
